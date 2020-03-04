@@ -17,7 +17,7 @@ html {
 
 * {
   font-family: "Lato", sans-serif;
-  color: #000000;
+  color: #ffffff;
 }
 
 *,
@@ -34,6 +34,7 @@ img {
   height: auto;
 }
 
+
 .container {
   width: 1115px;
   margin: 0 auto;
@@ -45,9 +46,7 @@ img {
 
 .slider-screen {
   background-image: url(../images/bg_screen1.jpg);
-  height: 980px;
-  @media screen and (max-width: 768px) {
-  }
+  /* height: 980px; */
 }
 
 .site-header {
@@ -90,20 +89,8 @@ img {
   height: 22px;
 }
 
-.socials__item-fb {
-  background: url(../images/icons/icon_fb.png) center no-repeat;
-}
-
-.socials__item-twit {
-  background: url(../images/icons/icon_twit.png) center no-repeat;
-}
-
-.socials__item-youtube {
-  background: url(../images/icons/icon_youtube.png) center no-repeat;
-}
-
-.socials__item-inst {
-  background: url(../images/icons/icon_inst.png) center no-repeat;
+.slider {
+  padding-bottom: 240px;
 }
 
 .slider-wrap {
