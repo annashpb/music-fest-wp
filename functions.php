@@ -16,4 +16,4 @@ function register_my_menu()
 }
 add_action('init', 'register_my_menu');
 
-add_theme_support( 'custom-background' );
+add_theme_support('custom-background');

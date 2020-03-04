@@ -158,7 +158,7 @@ img {
   justify-content: center;
 }
 
-.propositions__list__item {
+.propositions__item {
   display: block;
   width: 350px;
   height: 580px;
@@ -167,41 +167,45 @@ img {
   text-align: center;
 }
 
+.proposition:not(:last-child) {
+  margin-right: 30px;
+}
+
 .proposition-1 {
   background: url(../images/photo1.png) center no-repeat;
-  margin-right: 30px;
+  
 }
 
 .proposition-2 {
   background: url(../images/photo2.png) center no-repeat;
 }
 
-.propositions__list__item__headline {
+.proposition__headline {
   font-size: 30px;
   font-weight: 400;
   text-transform: uppercase;
   margin-bottom: 215px;
 }
 
-.propositions__list__item__price {
+.proposition__price {
   margin-bottom: 40px;
 }
 
-.propositions__list__item__price-small {
+.proposition__price-small {
   font-size: 30px;
   font-weight: 400;
   vertical-align: top;
   line-height: 1;
 }
 
-.propositions__list__item__price-big {
+.proposition__price-big {
   font-size: 60px;
   font-weight: 700;
   vertical-align: top;
   line-height: 50px;
 }
 
-.propositions__list__item__description {
+.proposition__description {
   font-size: 16px;
   font-weight: 400;
   padding-left: 20px;
@@ -209,7 +213,7 @@ img {
   margin: 30px 0px;
 }
 
-.propositions__list__item__description::before {
+.proposition__description::before {
   content: "";
   position: absolute;
   left: 50px;
@@ -218,7 +222,7 @@ img {
   background: url(../images/icons/icon_hum.png) center no-repeat;
 }
 
-.propositions__list__item__text {
+.proposition__text {
   font-size: 12px;
   font-weight: 400;
 }

@@ -8,9 +8,20 @@ if (have_posts()) :
         get_template_part('template-parts/page/content', 'first-screen');
     endwhile;
 else :
-    get_template_part('template-parts/post/content', 'none');
+    get_template_part('template-parts/page/content', 'none');
 endif;
 ?>
 
+<?php
+// Show the selected front page content.
+if (have_posts()) :
+    while (have_posts()) :
+        the_post();
+        get_template_part('template-parts/page/content', 'propositions');
+    endwhile;
+else :
+    get_template_part('template-parts/page/content', 'none');
+endif;
+?>
 
 <?php get_footer(); ?>
