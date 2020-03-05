@@ -1,4 +1,4 @@
-<section class="map" id="map">
+<section class="map" id="map" style="background-image: url('<?php echo get_field('map-bg'); ?>')">
     <div class="map__container">
         <h2 class="map__headline section-headline">o show</h2>
         <p class="map__description">
