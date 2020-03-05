@@ -34,7 +34,6 @@ img {
   height: auto;
 }
 
-
 .container {
   width: 1115px;
   margin: 0 auto;
@@ -171,15 +170,6 @@ img {
   margin-right: 30px;
 }
 
-.proposition-1 {
-  background: url(../images/photo1.png) center no-repeat;
-  
-}
-
-.proposition-2 {
-  background: url(../images/photo2.png) center no-repeat;
-}
-
 .proposition__headline {
   font-size: 30px;
   font-weight: 400;
@@ -234,9 +224,8 @@ img {
   text-align: center;
 }
 
-.tajectory {
-  background-image: url(../images/bg_screen2.jpg);
-  height: 980px;
+.tajectory-wrapper {
+  padding-bottom: 200px;
 }
 
 .tajectory-container {
@@ -259,17 +248,17 @@ img {
   list-style: none;
 }
 
-.trajectory__list__item {
+.trajectory__item {
   display: flex;
   justify-content: space-between;
   position: relative;
 }
 
-.trajectory__list__item:not(:last-child) {
+.trajectory__item:not(:last-child) {
   margin-bottom: 45px;
 }
 
-.trajectory__list__item::before {
+.trajectory__item::before {
   content: "";
   position: absolute;
   top: 5px;
@@ -281,7 +270,7 @@ img {
   border: 5px solid #f97e6b;
 }
 
-.trajectory__list__item:not(:last-child)::after {
+.trajectory__item:not(:last-child)::after {
   position: absolute;
   content: "";
   top: 35px;
@@ -293,12 +282,12 @@ img {
   border: 2px solid #f97e6b;
 }
 
-.trajestory__list__item__year {
+.trajestory__year {
   font-size: 32px;
   font-weight: 300;
 }
 
-.trajectory__list__item__description {
+.trajectory__description {
   width: 350px;
   font-size: 22px;
   font-weight: 400;
@@ -316,11 +305,12 @@ img {
   margin-bottom: 60px;
 }
 
-.gallery__list__item {
+.gallery__item {
   display: contents;
 }
 
-.propositions__list__item__btn {
+.proposition__btn,
+.gallery__btn {
   display: block;
   margin: 0 auto;
 }
