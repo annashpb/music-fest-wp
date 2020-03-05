@@ -17,3 +17,7 @@ function register_my_menu()
 add_action('init', 'register_my_menu');
 
 add_theme_support('custom-background');
+
+if (function_exists('acf_add_options_page')) {
+	acf_add_options_page();
+}
