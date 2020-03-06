@@ -43,11 +43,6 @@ img {
   display: none;
 }
 
-.slider-screen {
-  background-image: url(../images/bg_screen1.jpg);
-  /* height: 980px; */
-}
-
 .site-header {
   padding-top: 30px;
   display: flex;
@@ -209,7 +204,7 @@ img {
   left: 50px;
   width: 17px;
   height: 18px;
-  background: url(../images/icons/icon_hum.png) center no-repeat;
+  background: url(img/icon_hum.png) center no-repeat;
 }
 
 .proposition__text {
@@ -316,7 +311,6 @@ img {
 }
 
 .map {
-  background-image: url(../images/map.jpg);
   background-size: cover;
   height: 980px;
   position: relative;
@@ -326,7 +320,7 @@ img {
   content: "";
   width: 29px;
   height: 39px;
-  background: url(../images/icons/icon__geoloc.png) center no-repeat;
+  background: url(img/icon__geoloc.png) center no-repeat;
   position: absolute;
   top: 50%;
   left: 50%;

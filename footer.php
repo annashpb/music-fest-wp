@@ -1,9 +1,9 @@
 <footer id="colophon" class="site-footer">
     <div class="site-footer-container container">
         <div class="site-footer__contact">
-            <p class="site-footer__contact-logo">Music<br />festival</p>
+            <p class="site-footer__contact-logo"><?php _e('Music'); ?><br /><?php _e('festival'); ?></p>
             <p class="site-footer__contact-text">
-                <?php echo get_field('copyright', 'option'); ?>
+                <?php the_field('copyright', 'option'); ?>
             </p>
         </div>
         <?php if (has_nav_menu('socials-menu')) : ?>

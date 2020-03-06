@@ -4,6 +4,7 @@
 function hook_up_scripts()
 {
     wp_enqueue_style('style', get_stylesheet_uri());
+    // wp_enqueue_style('style', 'https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap&subset=latin-ext');
 
     wp_enqueue_script('script', get_template_directory_uri() . '/js/app.js');
 }
